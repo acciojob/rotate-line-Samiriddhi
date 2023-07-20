@@ -9,7 +9,14 @@
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
-</script>
+		
+      var angle = 0;
+      setInterval(function() {
+        angle += 2;
+        document.getElementById("line").style.transform = "rotate(" + angle + "deg)";
+      }, 20);
+    </script>
+
 
 </body>
 
